@@ -1,0 +1,16 @@
+  para centrar un contenedor:
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+para cepara botones:
+
+<button style="margin: 10px">My Button</button> 
+
+para cabecera estatica:
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
