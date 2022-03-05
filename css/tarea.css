@@ -5,15 +5,19 @@ body {
 #contenedor {
   padding: 0%;
   margin: 0%;
-  background-image: url("./IMG/fondo.png");
+  background-image: url("../assets/images/fondo.png");
   position: relative;
-  height: 610px;
+  height: 700px;
 }
 #contenido {
   top: 100px;
 }
 
 #lista {
+  z-index: 99;
+  background: white;
+  margin: 0;
+  padding: 16px;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -28,7 +32,7 @@ body {
 .imput {
   padding: 10px;
   margin: 0px;
-  background-image: url("./IMG/BOTON-BUSQUEDA.png");
+  background-image: url("../assets/images/BOTON-BUSQUEDA.png");
   background-repeat: no-repeat;
   border: none;
   width: 90px;
@@ -81,7 +85,8 @@ h3 {
   cursor: pointer;
 }
 #pasteles {
-  height: 300px;
+  padding: 60px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,9 +112,9 @@ h3 {
   justify-content: center;
 }
 .tortas {
-  max-width: 300px;
+  max-width: 600px;
   margin: 40px;
-  border-radius: 20px;
+  border-radius: 20px
 }
 .ver-detalles {
   width: 120px;
@@ -118,8 +123,9 @@ h3 {
   left: 230px;
 }
 .detalles {
+  border: none;
   border-radius: 20px;
-  color: #ffb74d;
+  color:#ffb74d;
   cursor: pointer;
 }
 .pacagin {
@@ -129,7 +135,7 @@ h3 {
 }
 
 .anuncio {
-  max-width: 600px;
+  max-width: 800px;
 }
 
 #vision {
@@ -138,7 +144,103 @@ h3 {
   justify-content: center;
 }
 #ubicacion {
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#contactanos{
+  padding: 40px;
+  border-radius: 30px;
+  background-color: rgb(245, 245, 245);
+  width: 800px;
+  height: 250px;
+  display: flex;
+  margin: 0px auto;
+
+}
+}
+#nombre{
+width: 300px;
+height: 230px;
+background-color: rgb(235, 235, 235);
+float: left;
+}
+
+#ilustracion-final{
+ 
+ float: left;
+}
+.nombres{
+  background-color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  width: 400px;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.tarea{
+  background-color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 10px;
+  width: 260px;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 10px;
+  min-width: 410px;
+  max-width: 410px;
+  min-height: 100px;
+  max-height: 200px;
+}
+#enviar{
+  color: white;
+  border: none;
+  padding: 10px;
+  background-color: rgb(165, 163, 160);
+  border-radius: 10px;
+  width: 410px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+#pie-pagina{
+  padding: 40px;
+  border: 100px;
+  width: 1050px;
+  height: 100px;
+  margin: 0px auto;
+}
+.redes{
+  padding: 10px;
+  background-color:#ffb74d;
+  display: flex;
+  margin: 0px auto;
+}
+#servicios{
+padding: 10px;
+text-align: center;
+width: 330px;
+height: 150px;
+}
+#contacto{;
+padding: 10px;
+text-align: center;
+width: 330px;
+height: 150px;
+}
+#redes-sociales{
+padding: 10px;
+text-align: center;
+width: 330px;
+height: 150px;
+}
+h2, h4{
+  color: white;
+}
+.img{
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
 }
