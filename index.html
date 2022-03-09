@@ -4,62 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../trabajo 3/css/tarea.css" />
-    <title>Zapatos</title>
+    <link rel="stylesheet" href="css/tarea.css" />
+    <title>Btatabit.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="contenedor">
-      <nav id="navegacion">
-        <a href="#">Quienes somos</a>
-        <a href="#">Mision</a>
-        <a href="#">Vision</a>
-        <a href="#">Nuestras tiendas</a>
-        <a href="#">Contactanos</a>
-      </nav>
-      <div class="quienes somos">
-        <h1 class="titulo">Quienes somos</h1>
-        <p class="parrafo">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-          consectetur voluptatem dolorem quisquam accusantium, delectus nemo
-          animi perferendis facere porro quidem a aliquid modi distinctio libero
-          error ullam similique unde?
-        </p>
-        <h1 class="titulo">Mision</h1>
-        <p class="parrafo">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur,
-          illum? Aliquid modi esse quisquam quo soluta sit, labore incidunt
-          tenetur exercitationem vel nesciunt? Eligendi omnis ratione quas ex,
-          quos molestiae.
-        </p>
-        <h1 class="titulo">vision</h1>
-        <p class="parrafo">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur,
-          illum? Aliquid modi esse quisquam quo soluta sit, labore incidunt
-          tenetur exercitationem vel nesciunt? Eligendi omnis ratione quas ex,
-          quos molestiae.
-        </p>
-        <h1 class="titulo">nuestras tiendas</h1>
-        <p class="parrafo">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur,
-          illum? Aliquid modi esse quisquam quo soluta sit, labore incidunt
-          tenetur exercitationem vel nesciunt? Eligendi omnis ratione quas ex,
-          quos molestiae.
-        </p>
-        <h1 class="titulo">Contactanos</h1>
-        <p class="parrafo">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur,
-          illum? Aliquid modi esse quisquam quo soluta sit, labore incidunt
-          tenetur exercitationem vel nesciunt? Eligendi omnis ratione quas ex,
-          quos molestiae.
-        </p>
-        <h1 class="titulo">Contactanos</h1>
-        <p class="parrafo">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur,
-          illum? Aliquid modi esse quisquam quo soluta sit, labore incidunt
-          tenetur exercitationem vel nesciunt? Eligendi omnis ratione quas ex,
-          quos molestiae.
-        </p>
+    <header id="cabecera">
+      <img class="imagen" src="./assets/images/batatabit.png" alt="logotipo" />
+      <h1 class="titulo">
+        La proxima revolución 
+        en el intercambio de 
+        criptomonedas.
+      </h1>
+      <p class="parrafo-1">
+        Batatabit te ayuda a navegar entre los <br />
+        diferentes precios y tendencias.
+      </p>
+      <select class="planes" name="planes">
+        <option value="planes">Conoce Nuestros Planes</option>
+        <option value="planes">Planes 1</option>
+        <option value="planes">Planes 2</option>
+      </select>
+    </header>
+    <section class="secciones">
+      <img class="imagen-5" src="./assets/images/Bitcoin.png" alt="" />
+      <h2 class="titulo-2">
+        Visibilizamos todas las 
+        tasas de cambio
+      </h2>
+      <p class="parrafo-2">
+        traemos informacion en tiempo real de las casas de cambio y de las
+        monedas más inportantes del mundo.
+      </p>
+      <h3 class="moneda">
+        Monedas
+      </h3>
+      <div class="money">
+        <div class="monedas-1">
+          <p class="bit">Bitcoin</p>
+          <input class="dato" type="text" placeholder="$ 1.96">
+          <img class="imagen-2" src="./assets/icons/trending-down 1.png" alt="">
+        </div>
+        <div class="monedas-2">
+          <p class="bit">Ethereum</p>
+          <input class="dato" type="text" placeholder="$ 1.96">
+          <img class="imagen-2" src="./assets/icons/trending-up 1.png" alt="">
+        </div>
+        <div class="monedas-2">
+          <p class="bit">Ripple</p>
+          <input class="dato" type="text" placeholder="$ 1.96">
+          <img class="imagen-2" src="./assets/icons/trending-down 1.png" alt="">
+        </div>
+        <div class="monedas-3">
+          <p class="bit">Stellar</p>
+          <input class="dato" type="text" placeholder="$ 1.96">
+          <img class="imagen-2" src="./assets/icons/trending-down 1.png" alt=""> 
+        </div> 
       </div>
-    </div>
+      <label for="fecha" class="actualizado">Actualizado:</label>
+      <input type="date" class="fecha">
+    </section>
   </body>
 </html>
