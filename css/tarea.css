@@ -145,39 +145,118 @@ html {
 }
 .tabla-2 {
   display: none;
-
 }
 .tabla {
   width: 100%;
   display: flex;
 }
-.icono{
+.icono {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.icono-1{
+.icono-1 {
   position: absolute;
- right: 30px;
+  right: 30px;
 }
-.actualizado{
+.actualizado {
   margin-top: 20px;
- width: px;
- height: 40px;
- background-color: #FFE9D4;
- text-align: center;
- padding: 10px;
-  
+  width: px;
+  height: 40px;
+  background-color: #ffe9d4;
+  text-align: center;
+  padding: 10px;
 }
-.actualizado-1{
+.actualizado-1 {
   font-size: 16px;
-  font-family: 'inter';
-  font-weight: 700 , bold;
+  font-family: "inter";
+  font-weight: 700, bold;
 }
-.fecha{
+.fecha {
   width: 130px;
   border: none;
   font-size: 16px;
-  background-color: #FFE9D4 ;
+  background-color: #ffe9d4;
   text-align: center;
+}
+.secciones-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 900px;
+  min-width: 320px;
+  height: 910px;
+  text-align: center;
+  background-color: #201e1c;
+}
+.creamos {
+  margin-top: 60px;
+  color: #ffffff;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+.secciones-2-parrafo {
+  margin-top: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+}
+.seciones-2-2 {
+  margin-top: 35px;
+  width: 60%;
+  min-width: 288px;
+  height: 152px;
+  border-radius: 4px;
+  background: #282623;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+h4 {
+  margin-right: 100px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.tiempo-real {
+  padding: 0px 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+}
+.imagen-seccion-2 {
+  margin-top: 10px;
+  padding: 10px;
+  margin-right: 180px;
+}
+.seccion-3 {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  min-width: 320px;
+  max-width: 900px;
+  height: 387px;
+}
+.seccion-3-titulo {
+  position: absolute;
+  margin-top: 60px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #FFFFFF
 }
